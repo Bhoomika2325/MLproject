@@ -20,9 +20,8 @@ list_of_files=[
     f"src/{project_name}/logger.py",
     f"src/{project_name}/utils.py",
     "app.py"
-    "Dockkerfile.py"
-    "requiremnts.txt"
-    "setup.py"
+    
+    
 
 ]
 
