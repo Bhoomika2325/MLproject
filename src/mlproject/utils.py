@@ -8,9 +8,10 @@ import pymysql
 
 load_dotenv()
 #reading sql data
+
 host=os.getenv("host")
 user=os.getenv("user")
-passw=os.getenv("password")
+password=os.getenv("password")
 db=os.getenv("db")
 
 def read_sql_data():

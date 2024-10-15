@@ -12,11 +12,11 @@ if __name__=="__main__":
 
 
     try:
-        print('start')
+        ##print('start')
         #data_ingestion_config=DataIngestionConfig()
         data_ingestion=DataIngestion()
-        data_ingestion.initiate_data_ingestion
-        print('data ingestion start')
+        data_ingestion.initiate_data_ingestion()
+        #print('data ingestion start')
         
     except Exception as e:
         logging.info("Custom exception")
